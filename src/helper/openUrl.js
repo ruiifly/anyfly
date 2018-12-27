@@ -8,5 +8,7 @@ module.exports = url => {
         case "win32":
             exec(`start ${url}`);
             break;
+        default:
+            break;
     }
 };
